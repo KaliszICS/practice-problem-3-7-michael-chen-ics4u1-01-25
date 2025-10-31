@@ -27,10 +27,6 @@ public class PracticeProblem {
 	        return moves;
 	    }
 
-		// if (maze[row][col] != "" && maze[row][col] != "S") {
-		// 	return Integer.parseInt(maze[row][col]);
-		// }
-	    
 	    moves++;
 		visited[row][col] = true;
 		int movesRight = dfsHelper(maze, row, col + 1, moves, visited);
